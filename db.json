@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "name": "Parvathy",
+      "email": "parvathysnair.geetha@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "vishnu",
+      "email": "vishnu@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "Joyal",
+      "email": "joyal234@gmail.com",
+      "password": "1",
+      "id": 3
+    }
+  ],
+  "rescueRequests": [
+    {
+      "animal": "Injured dog",
+      "location": "Puthupally",
+      "description": "Dog is injured near the roadside",
+      "status": "Pending",
+      "id": 1
+    },
+    {
+      "animal": "injured cat",
+      "location": "Kottayam",
+      "description": "near bus stand",
+      "status": "In Progress",
+      "timestamp": "2026-09-30T11:59:53.310Z",
+      "id": 2
+    },
+    {
+      "animal": "Injured cat",
+      "location": "9.961330499999999, 76.44090650000001",
+      "description": "A street cat appears to have an injured leg and is unable to walk properly.",
+      "email": "joyal234@gmail.com",
+      "status": "Resolved",
+      "timestamp": "2026-09-30T19:42:44.378Z",
+      "id": 3
+    }
+  ],
+  "reports": [
+    {
+      "urgency": "Low",
+      "animalType": "Cat",
+      "location": "near kottayam junction",
+      "description": "abandoned",
+      "name": "Kavya",
+      "phone": "9598724957",
+      "incidentType": "Abandoned",
+      "timestamp": "2026-09-30T12:12:23.896Z",
+      "id": 1
+    },
+    {
+      "urgency": "Critical",
+      "animalType": "Dog",
+      "location": "near kottayam junction",
+      "description": "",
+      "name": "Kavya",
+      "phone": "9598724957",
+      "incidentType": "Sick",
+      "timestamp": "2026-09-30T14:45:36.639Z",
+      "id": 2,
+      "status": "Resolved"
+    }
+  ],
+  "adoptionRequests": [
+    {
+      "fullName": "Albin Thomas",
+      "phone": "8586746947",
+      "email": "albinthomas@gmail.com",
+      "address": "12 Green Villa, MG Road, Kottayam, Kerala – 686001",
+      "housingType": "Own House",
+      "experience": "First-time owner",
+      "notes": "",
+      "animalId": 7,
+      "animalName": "Bella",
+      "status": "Approved",
+      "timestamp": "2026-09-30T12:36:47.741Z",
+      "id": 1
+    },
+    {
+      "fullName": "Vishnu",
+      "phone": "9735382935",
+      "email": "vishnu@gmail.com",
+      "address": "Apt 4B, Blue Waters Apartments K.P. Vallon Road, Kadavanthra",
+      "housingType": "Own House",
+      "experience": "First-time owner",
+      "notes": "",
+      "animalId": 12,
+      "animalName": "Daisy",
+      "status": "Pending",
+      "timestamp": "2026-09-30T18:15:30.120Z",
+      "id": 2
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@safetails.com",
+      "password": "123"
+    }
+  ]
+}
